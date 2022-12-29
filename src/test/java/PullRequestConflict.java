@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class PullRequestConflict {
     @Test
     void pullRequestConflict() {
-        open("http://github.com/");
+        open("https://github.com/");
 
     }
 }
